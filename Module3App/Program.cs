@@ -12,7 +12,6 @@
             Console.Write("Enter your birthdate: ");
             var birthdate = Console.ReadLine();
             Console.WriteLine("Your birthdate is " + birthdate);
-            Console.ReadKey();
             /*string myName = "Dan";
             byte age = 27;
             bool hasAPet = true;
@@ -22,9 +21,10 @@
             Console.WriteLine("Йоу \x23");
             Console.WriteLine("Мой возраст {0}", age);
             Console.WriteLine("У меня есть питомец? {0}", hasAPet);
-            Console.WriteLine("Мой размер ноги  - {0}", shoeSize);
+            Console.WriteLine("Мой размер ноги  - {0}", shoeSize);*/
             DayOfWeek day = (DayOfWeek) int.Parse(Console.ReadLine());
-            Console.WriteLine("Your Fav Day is {0}", day);*/
+            Console.WriteLine("Your Fav Day is {0}", day);
+            Console.ReadKey();
         }
     }
     /*enum DaysOfWeek : byte
